@@ -9,7 +9,7 @@ import PIL
 st.title("CONTACTLESS VITAL SIGN DETECTION")
 st.markdown("------")
 
-model_path='C:/Users/lenovo/POTHOLE/vitals.tflite'
+model_path='vitals.tflite'
 
 
 
