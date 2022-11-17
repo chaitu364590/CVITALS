@@ -118,9 +118,9 @@ def run_odt_and_draw_results(image_path, interpreter, threshold=0.3):
 ## Input Fields
 uploaded_file = st.file_uploader("Upload a Image", type=["jpg","png", 'jpeg'])
 if uploaded_file is not None:
-    with open(os.path.join("tmp",uploaded_file.name),"wb") as f:
+    with open(os.path.join("/tmp",uploaded_file.name),"wb") as f:
         f.write(uploaded_file.getbuffer())
-    path = os.path.join("tmp",uploaded_file.name)
+    path = os.path.join("/tmp",uploaded_file.name)
     URL =path
     DETECTION_THRESHOLD = 0.3
 
