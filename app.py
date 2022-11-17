@@ -8,6 +8,8 @@ import PIL
 #st.set_page_config(page_title = "Cats vs Dogs Image Classification")
 st.title("CONTACTLESS VITAL SIGN DETECTION")
 st.markdown("------")
+url = "https://chaitu364590-thermal-app-n8q3c6.streamlit.app/"
+st.write("click me [THERMAL VIEW](%s)" % url)
 
 model_path='vitals.tflite'
 
